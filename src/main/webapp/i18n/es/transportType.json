@@ -1,0 +1,9 @@
+{
+  "sistemaAmigoApp": {
+    "TransportType": {
+      "null": "",
+      "CAMION": "CAMION",
+      "FFCC": "FFCC"
+    }
+  }
+}

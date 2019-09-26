@@ -1,0 +1,67 @@
+{
+    "name": "Manouver",
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "unit",
+            "fieldType": "ServiceUnitType",
+            "fieldValues": "TM,KG,CONTENEDOR_20TM,CONTENEDOR_40TM,M2,TARIMA,KM",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "division",
+            "fieldType": "DivisionType",
+            "fieldValues": "INTERMODAL,FERTILIZANTES,POLIETILENO,TUBERIA,LACTEOS,CERVEZA,SAGARPA"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "currency",
+            "fieldType": "CurrencyType",
+            "fieldValues": "MXN,USD"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "company",
+            "otherEntityRelationshipName": "manouver",
+            "relationshipName": "provider",
+            "otherEntityField": "legalName",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "manouverRequest",
+            "otherEntityRelationshipName": "manouver",
+            "relationshipName": "manouverRequest",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190926192455",
+    "entityTableName": "manouver",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

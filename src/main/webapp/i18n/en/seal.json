@@ -1,0 +1,25 @@
+{
+  "sistemaAmigoApp": {
+    "seal": {
+      "home": {
+        "title": "Seals",
+        "createLabel": "Create a new Seal",
+        "createOrEditLabel": "Create or edit a Seal",
+        "search": "Search for Seal",
+        "notFound": "No Seals found"
+      },
+      "created": "A new Seal is created with identifier {{ param }}",
+      "updated": "A Seal is updated with identifier {{ param }}",
+      "deleted": "A Seal is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Seal {{ id }}?"
+      },
+      "detail": {
+        "title": "Seal"
+      },
+      "issuer": "Issuer",
+      "uniqueId": "Unique Id",
+      "cargoSeal": "Cargo Seal"
+    }
+  }
+}

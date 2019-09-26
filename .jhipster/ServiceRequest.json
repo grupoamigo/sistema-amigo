@@ -1,0 +1,68 @@
+{
+    "name": "ServiceRequest",
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dateRequested",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dateBegin",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dateEnd",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "StatusType",
+            "fieldValues": "PROCESANDO,CONFIRMADO,ACTIVO,EN_ESPERA,TERMINADO,CANCELADO"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "client",
+            "otherEntityRelationshipName": "serviceRequest",
+            "relationshipName": "client",
+            "otherEntityField": "uniqueId",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "serviceQuote",
+            "otherEntityRelationshipName": "serviceRequest",
+            "relationshipName": "serviceQuote",
+            "otherEntityField": "title"
+        }
+    ],
+    "changelogDate": "20190926192506",
+    "entityTableName": "service_request",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

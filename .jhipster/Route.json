@@ -1,0 +1,28 @@
+{
+    "name": "Route",
+    "fields": [
+        {
+            "fieldName": "price",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "currency",
+            "fieldType": "CurrencyType",
+            "fieldValues": "MXN,USD"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190926192514",
+    "entityTableName": "route",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

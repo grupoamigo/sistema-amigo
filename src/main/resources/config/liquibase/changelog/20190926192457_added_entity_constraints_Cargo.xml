@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Cargo.
+    -->
+    <changeSet id="20190926192457-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="warehouse_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_warehouse_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="warehouse"/>
+
+        <addForeignKeyConstraint baseColumnNames="seals_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_seals_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="seal"/>
+
+        <addForeignKeyConstraint baseColumnNames="client_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_client_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="client"/>
+
+        <addForeignKeyConstraint baseColumnNames="warehouses_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_warehouses_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="warehouse"/>
+
+    </changeSet>
+</databaseChangeLog>

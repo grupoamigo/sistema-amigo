@@ -1,0 +1,15 @@
+{
+  "sistemaAmigoApp": {
+    "ContactType": {
+      "null": "",
+      "TELEFONO": "TELEFONO",
+      "EMAIL": "EMAIL",
+      "WEBSITE": "WEBSITE",
+      "FACEBOOK": "FACEBOOK",
+      "TWITTER": "TWITTER",
+      "INSTAGRAM": "INSTAGRAM",
+      "LINKEDIN": "LINKEDIN",
+      "WHATSAPP": "WHATSAPP"
+    }
+  }
+}

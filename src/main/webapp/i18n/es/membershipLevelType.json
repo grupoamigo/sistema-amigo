@@ -1,0 +1,11 @@
+{
+  "sistemaAmigoApp": {
+    "MembershipLevelType": {
+      "null": "",
+      "FREE": "FREE",
+      "BASIC": "BASIC",
+      "PRO": "PRO",
+      "ENTERPRISE": "ENTERPRISE"
+    }
+  }
+}

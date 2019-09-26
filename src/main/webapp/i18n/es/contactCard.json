@@ -1,0 +1,24 @@
+{
+  "sistemaAmigoApp": {
+    "contactCard": {
+      "home": {
+        "title": "Contact Cards",
+        "createLabel": "Crear nuevo Contact Card",
+        "createOrEditLabel": "Crear o editar Contact Card",
+        "search": "Search for Contact Card",
+        "notFound": "No Contact Cards found"
+      },
+      "created": "Un nuevo Contact Card ha sido creado con el identificador {{ param }}",
+      "updated": "Un Contact Card ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Contact Card ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Contact Card {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact Card"
+      },
+      "type": "Type",
+      "value": "Value"
+    }
+  }
+}

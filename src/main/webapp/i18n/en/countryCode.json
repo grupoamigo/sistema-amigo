@@ -1,0 +1,24 @@
+{
+  "sistemaAmigoApp": {
+    "countryCode": {
+      "home": {
+        "title": "Country Codes",
+        "createLabel": "Create a new Country Code",
+        "createOrEditLabel": "Create or edit a Country Code",
+        "search": "Search for Country Code",
+        "notFound": "No Country Codes found"
+      },
+      "created": "A new Country Code is created with identifier {{ param }}",
+      "updated": "A Country Code is updated with identifier {{ param }}",
+      "deleted": "A Country Code is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Country Code {{ id }}?"
+      },
+      "detail": {
+        "title": "Country Code"
+      },
+      "code": "Code",
+      "name": "Name"
+    }
+  }
+}

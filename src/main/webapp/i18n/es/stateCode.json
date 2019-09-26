@@ -1,0 +1,24 @@
+{
+  "sistemaAmigoApp": {
+    "stateCode": {
+      "home": {
+        "title": "State Codes",
+        "createLabel": "Crear nuevo State Code",
+        "createOrEditLabel": "Crear o editar State Code",
+        "search": "Search for State Code",
+        "notFound": "No State Codes found"
+      },
+      "created": "Un nuevo State Code ha sido creado con el identificador {{ param }}",
+      "updated": "Un State Code ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un State Code ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar State Code {{ id }}?"
+      },
+      "detail": {
+        "title": "State Code"
+      },
+      "code": "Code",
+      "name": "Name"
+    }
+  }
+}

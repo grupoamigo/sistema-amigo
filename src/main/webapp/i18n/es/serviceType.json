@@ -1,0 +1,16 @@
+{
+  "sistemaAmigoApp": {
+    "ServiceType": {
+      "null": "",
+      "CARGA": "CARGA",
+      "DESCARGA": "DESCARGA",
+      "TRANSPORTE": "TRANSPORTE",
+      "IMPORTACION": "IMPORTACION",
+      "EXPORTACION": "EXPORTACION",
+      "ALMACENAJE": "ALMACENAJE",
+      "INSPECCION": "INSPECCION",
+      "REPARACION": "REPARACION",
+      "CROSS_DOCK": "CROSS_DOCK"
+    }
+  }
+}

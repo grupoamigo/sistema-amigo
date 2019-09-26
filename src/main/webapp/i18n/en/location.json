@@ -1,0 +1,29 @@
+{
+  "sistemaAmigoApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Create a new Location",
+        "createOrEditLabel": "Create or edit a Location",
+        "search": "Search for Location",
+        "notFound": "No Locations found"
+      },
+      "created": "A new Location is created with identifier {{ param }}",
+      "updated": "A Location is updated with identifier {{ param }}",
+      "deleted": "A Location is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "address": "Address",
+      "lat": "Lat",
+      "lng": "Lng",
+      "timestamp": "Timestamp",
+      "manouverRequestOrigin": "Manouver Request Origin",
+      "manouverRequestDestiny": "Manouver Request Destiny",
+      "inspection": "Inspection"
+    }
+  }
+}

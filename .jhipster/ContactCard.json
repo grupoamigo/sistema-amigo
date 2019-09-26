@@ -1,0 +1,30 @@
+{
+    "name": "ContactCard",
+    "fields": [
+        {
+            "fieldName": "type",
+            "fieldType": "ContactType",
+            "fieldValues": "TELEFONO,EMAIL,WEBSITE,FACEBOOK,TWITTER,INSTAGRAM,LINKEDIN,WHATSAPP",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "value",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190926192503",
+    "entityTableName": "contact_card",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

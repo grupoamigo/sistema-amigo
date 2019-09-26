@@ -1,0 +1,87 @@
+{
+    "name": "Company",
+    "fields": [
+        {
+            "fieldName": "legalName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "taxId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "CompanyType",
+            "fieldValues": "NAVIERA,TRANSPORTISTA,PERSONA_MORAL,PERSONA_FISICA,CONTRATISTA,AGENTE_ADUANAL,GOBIERNO,CENTRO_DE_DISTRIBUCION",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "logo",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        },
+        {
+            "fieldName": "profilePicture",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "membership",
+            "otherEntityRelationshipName": "employer",
+            "relationshipName": "membership"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "contract",
+            "otherEntityRelationshipName": "companies",
+            "relationshipName": "contract"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "service",
+            "otherEntityRelationshipName": "company",
+            "relationshipName": "service",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "warehouse",
+            "otherEntityRelationshipName": "owner",
+            "relationshipName": "warehouse",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "manouver",
+            "otherEntityRelationshipName": "provider",
+            "relationshipName": "manouver",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "transport",
+            "otherEntityRelationshipName": "owner",
+            "relationshipName": "transportOwner"
+        }
+    ],
+    "changelogDate": "20190926192452",
+    "entityTableName": "company",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

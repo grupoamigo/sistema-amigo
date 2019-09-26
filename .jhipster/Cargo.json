@@ -1,0 +1,69 @@
+{
+    "name": "Cargo",
+    "fields": [
+        {
+            "fieldName": "type",
+            "fieldType": "CargoType",
+            "fieldValues": "CONTENEDOR,GRANEL,PALLETS,TUBERIA,CERVEZA,LECHE,POLIETILENO",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "uniqueId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "CargoStatusType",
+            "fieldValues": "ESPERANDO_CARGA,ESPERANDO_DESCARGA,EN_TRANSITO_MARITIMO,EN_TRANSITO_TERRESTRE,EN_ADUANA,ENTREGADO,EN_INSPECCION,PERDIDO,DANADO,ROBADO,EN_REPARACION,TRANSFORMADA"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "warehouse",
+            "otherEntityRelationshipName": "cargo",
+            "relationshipName": "warehouse",
+            "otherEntityField": "name",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "seal",
+            "otherEntityRelationshipName": "cargoSeal",
+            "relationshipName": "seals",
+            "otherEntityField": "uniqueId"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "client",
+            "otherEntityRelationshipName": "cargo",
+            "relationshipName": "client",
+            "otherEntityField": "uniqueId"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "warehouse",
+            "otherEntityRelationshipName": "cargoList",
+            "relationshipName": "warehouses",
+            "otherEntityField": "name"
+        }
+    ],
+    "changelogDate": "20190926192457",
+    "entityTableName": "cargo",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

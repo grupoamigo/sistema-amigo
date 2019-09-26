@@ -1,0 +1,30 @@
+{
+  "sistemaAmigoApp": {
+    "manouver": {
+      "home": {
+        "title": "Manouvers",
+        "createLabel": "Crear nuevo Manouver",
+        "createOrEditLabel": "Crear o editar Manouver",
+        "search": "Search for Manouver",
+        "notFound": "No Manouvers found"
+      },
+      "created": "Un nuevo Manouver ha sido creado con el identificador {{ param }}",
+      "updated": "Un Manouver ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Manouver ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Manouver {{ id }}?"
+      },
+      "detail": {
+        "title": "Manouver"
+      },
+      "title": "Title",
+      "description": "Description",
+      "unit": "Unit",
+      "division": "Division",
+      "price": "Price",
+      "currency": "Currency",
+      "provider": "Provider",
+      "manouverRequest": "Manouver Request"
+    }
+  }
+}

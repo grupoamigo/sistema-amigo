@@ -1,0 +1,61 @@
+{
+    "name": "Membership",
+    "fields": [
+        {
+            "fieldName": "phone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "role",
+            "fieldType": "MembershipRole",
+            "fieldValues": "CEO,VP,JEFE_DE_DIVISION,SUPERVISOR,INSPECTOR,VIGILANTE,CHOFER,ADMINISTRATIVO"
+        },
+        {
+            "fieldName": "profilePicture",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        },
+        {
+            "fieldName": "created",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "expires",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "accountLevel",
+            "fieldType": "MembershipLevelType",
+            "fieldValues": "FREE,BASIC,PRO,ENTERPRISE"
+        },
+        {
+            "fieldName": "verified",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "membership",
+            "relationshipName": "user",
+            "otherEntityField": "email"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "company",
+            "otherEntityRelationshipName": "membership",
+            "relationshipName": "employer",
+            "otherEntityField": "legalName"
+        }
+    ],
+    "changelogDate": "20190926192453",
+    "entityTableName": "membership",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

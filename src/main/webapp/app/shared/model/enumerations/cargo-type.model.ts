@@ -1,0 +1,9 @@
+export const enum CargoType {
+  CONTENEDOR = 'CONTENEDOR',
+  GRANEL = 'GRANEL',
+  PALLETS = 'PALLETS',
+  TUBERIA = 'TUBERIA',
+  CERVEZA = 'CERVEZA',
+  LECHE = 'LECHE',
+  POLIETILENO = 'POLIETILENO'
+}

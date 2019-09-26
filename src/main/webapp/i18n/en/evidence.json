@@ -1,0 +1,24 @@
+{
+  "sistemaAmigoApp": {
+    "evidence": {
+      "home": {
+        "title": "Evidences",
+        "createLabel": "Create a new Evidence",
+        "createOrEditLabel": "Create or edit a Evidence",
+        "search": "Search for Evidence",
+        "notFound": "No Evidences found"
+      },
+      "created": "A new Evidence is created with identifier {{ param }}",
+      "updated": "A Evidence is updated with identifier {{ param }}",
+      "deleted": "A Evidence is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Evidence {{ id }}?"
+      },
+      "detail": {
+        "title": "Evidence"
+      },
+      "name": "Name",
+      "file": "File"
+    }
+  }
+}

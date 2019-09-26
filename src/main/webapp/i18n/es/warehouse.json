@@ -1,0 +1,27 @@
+{
+  "sistemaAmigoApp": {
+    "warehouse": {
+      "home": {
+        "title": "Warehouses",
+        "createLabel": "Crear nuevo Warehouse",
+        "createOrEditLabel": "Crear o editar Warehouse",
+        "search": "Search for Warehouse",
+        "notFound": "No Warehouses found"
+      },
+      "created": "Un nuevo Warehouse ha sido creado con el identificador {{ param }}",
+      "updated": "Un Warehouse ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Warehouse ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Warehouse {{ id }}?"
+      },
+      "detail": {
+        "title": "Warehouse"
+      },
+      "name": "Name",
+      "division": "Division",
+      "owner": "Owner",
+      "cargoList": "Cargo List",
+      "cargo": "Cargo"
+    }
+  }
+}

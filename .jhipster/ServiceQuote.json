@@ -1,0 +1,90 @@
+{
+    "name": "ServiceQuote",
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "quantity",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "unit",
+            "fieldType": "ServiceUnitType",
+            "fieldValues": "TM,KG,CONTENEDOR_20TM,CONTENEDOR_40TM,M2,TARIMA,KM",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "expeditionDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "expirationDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "StatusType",
+            "fieldValues": "PROCESANDO,CONFIRMADO,ACTIVO,EN_ESPERA,TERMINADO,CANCELADO"
+        },
+        {
+            "fieldName": "currency",
+            "fieldType": "CurrencyType",
+            "fieldValues": "MXN,USD",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "approvedBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "qrCode",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "contract",
+            "otherEntityRelationshipName": "serviceQuote",
+            "relationshipName": "contract",
+            "otherEntityField": "title",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "serviceRequest",
+            "otherEntityRelationshipName": "serviceQuote",
+            "relationshipName": "serviceRequest"
+        }
+    ],
+    "changelogDate": "20190926192505",
+    "entityTableName": "service_quote",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -42,6 +42,36 @@ public class CacheConfiguration {
             createCache(cm, com.sistema.amigo.domain.User.class.getName());
             createCache(cm, com.sistema.amigo.domain.Authority.class.getName());
             createCache(cm, com.sistema.amigo.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.sistema.amigo.domain.Company.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Company.class.getName() + ".memberships");
+            createCache(cm, com.sistema.amigo.domain.Company.class.getName() + ".contracts");
+            createCache(cm, com.sistema.amigo.domain.Company.class.getName() + ".transportOwners");
+            createCache(cm, com.sistema.amigo.domain.Membership.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Client.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Client.class.getName() + ".cargos");
+            createCache(cm, com.sistema.amigo.domain.Manouver.class.getName());
+            createCache(cm, com.sistema.amigo.domain.ManouverRequest.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Cargo.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Seal.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Seal.class.getName() + ".cargoSeals");
+            createCache(cm, com.sistema.amigo.domain.ExtraField.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Location.class.getName());
+            createCache(cm, com.sistema.amigo.domain.CountryCode.class.getName());
+            createCache(cm, com.sistema.amigo.domain.StateCode.class.getName());
+            createCache(cm, com.sistema.amigo.domain.ContactCard.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Service.class.getName());
+            createCache(cm, com.sistema.amigo.domain.ServiceQuote.class.getName());
+            createCache(cm, com.sistema.amigo.domain.ServiceQuote.class.getName() + ".serviceRequests");
+            createCache(cm, com.sistema.amigo.domain.ServiceRequest.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Contract.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Inspection.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Evidence.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Damage.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Driver.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Transport.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Warehouse.class.getName());
+            createCache(cm, com.sistema.amigo.domain.Warehouse.class.getName() + ".cargoLists");
+            createCache(cm, com.sistema.amigo.domain.Route.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,53 @@
+{
+    "name": "Location",
+    "fields": [
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lng",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "timestamp",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "manouverRequest",
+            "otherEntityRelationshipName": "origin",
+            "relationshipName": "manouverRequestOrigin",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "manouverRequest",
+            "otherEntityRelationshipName": "destiny",
+            "relationshipName": "manouverRequestDestiny",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "inspection",
+            "otherEntityRelationshipName": "location",
+            "relationshipName": "inspection",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190926192500",
+    "entityTableName": "location",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

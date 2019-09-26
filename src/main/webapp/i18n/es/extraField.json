@@ -1,0 +1,24 @@
+{
+  "sistemaAmigoApp": {
+    "extraField": {
+      "home": {
+        "title": "Extra Fields",
+        "createLabel": "Crear nuevo Extra Field",
+        "createOrEditLabel": "Crear o editar Extra Field",
+        "search": "Search for Extra Field",
+        "notFound": "No Extra Fields found"
+      },
+      "created": "Un nuevo Extra Field ha sido creado con el identificador {{ param }}",
+      "updated": "Un Extra Field ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Extra Field ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Extra Field {{ id }}?"
+      },
+      "detail": {
+        "title": "Extra Field"
+      },
+      "name": "Name",
+      "value": "Value"
+    }
+  }
+}

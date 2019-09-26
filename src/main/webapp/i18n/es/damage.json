@@ -1,0 +1,24 @@
+{
+  "sistemaAmigoApp": {
+    "damage": {
+      "home": {
+        "title": "Damages",
+        "createLabel": "Crear nuevo Damage",
+        "createOrEditLabel": "Crear o editar Damage",
+        "search": "Search for Damage",
+        "notFound": "No Damages found"
+      },
+      "created": "Un nuevo Damage ha sido creado con el identificador {{ param }}",
+      "updated": "Un Damage ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Damage ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Damage {{ id }}?"
+      },
+      "detail": {
+        "title": "Damage"
+      },
+      "reportDate": "Report Date",
+      "description": "Description"
+    }
+  }
+}

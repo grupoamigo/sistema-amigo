@@ -1,0 +1,8 @@
+export const enum ContractStatusType {
+  EMITIDO = 'EMITIDO',
+  FIRMADO = 'FIRMADO',
+  ACTIVO = 'ACTIVO',
+  CANCELADO = 'CANCELADO',
+  PAUSADO = 'PAUSADO',
+  TERMINADO = 'TERMINADO'
+}

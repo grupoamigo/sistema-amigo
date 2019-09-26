@@ -1,0 +1,25 @@
+{
+  "sistemaAmigoApp": {
+    "inspection": {
+      "home": {
+        "title": "Inspections",
+        "createLabel": "Crear nuevo Inspection",
+        "createOrEditLabel": "Crear o editar Inspection",
+        "search": "Search for Inspection",
+        "notFound": "No Inspections found"
+      },
+      "created": "Un nuevo Inspection ha sido creado con el identificador {{ param }}",
+      "updated": "Un Inspection ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Inspection ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Inspection {{ id }}?"
+      },
+      "detail": {
+        "title": "Inspection"
+      },
+      "date": "Date",
+      "signature": "Signature",
+      "location": "Location"
+    }
+  }
+}

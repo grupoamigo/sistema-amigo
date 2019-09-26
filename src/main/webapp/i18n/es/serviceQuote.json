@@ -1,0 +1,35 @@
+{
+  "sistemaAmigoApp": {
+    "serviceQuote": {
+      "home": {
+        "title": "Service Quotes",
+        "createLabel": "Crear nuevo Service Quote",
+        "createOrEditLabel": "Crear o editar Service Quote",
+        "search": "Search for Service Quote",
+        "notFound": "No Service Quotes found"
+      },
+      "created": "Un nuevo Service Quote ha sido creado con el identificador {{ param }}",
+      "updated": "Un Service Quote ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Service Quote ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Service Quote {{ id }}?"
+      },
+      "detail": {
+        "title": "Service Quote"
+      },
+      "title": "Title",
+      "description": "Description",
+      "quantity": "Quantity",
+      "price": "Price",
+      "unit": "Unit",
+      "expeditionDate": "Expedition Date",
+      "expirationDate": "Expiration Date",
+      "status": "Status",
+      "currency": "Currency",
+      "approvedBy": "Approved By",
+      "qrCode": "Qr Code",
+      "contract": "Contract",
+      "serviceRequest": "Service Request"
+    }
+  }
+}

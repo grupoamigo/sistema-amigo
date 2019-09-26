@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity ServiceRequest.
+    -->
+    <changeSet id="20190926192506-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="client_id"
+                                 baseTableName="service_request"
+                                 constraintName="fk_service_request_client_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="client"/>
+
+        <addForeignKeyConstraint baseColumnNames="service_quote_id"
+                                 baseTableName="service_request"
+                                 constraintName="fk_service_request_service_quote_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="service_quote"/>
+
+    </changeSet>
+</databaseChangeLog>

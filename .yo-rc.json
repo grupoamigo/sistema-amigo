@@ -21,15 +21,10 @@
     "buildTool": "maven",
     "useSass": true,
     "clientPackageManager": "npm",
-    "testFrameworks": [
-      "protractor"
-    ],
+    "testFrameworks": ["protractor"],
     "enableTranslation": true,
     "nativeLanguage": "es",
-    "languages": [
-      "en",
-      "es"
-    ],
+    "languages": ["en", "es"],
     "clientFramework": "react",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.3.1",
@@ -39,7 +34,9 @@
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "sistema-amigo",
+    "herokuDeployType": "git"
   },
   "git-provider": "GitHub",
   "git-company": "grupoamigo",

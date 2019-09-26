@@ -1,0 +1,34 @@
+{
+  "sistemaAmigoApp": {
+    "contract": {
+      "home": {
+        "title": "Contracts",
+        "createLabel": "Crear nuevo Contract",
+        "createOrEditLabel": "Crear o editar Contract",
+        "search": "Search for Contract",
+        "notFound": "No Contracts found"
+      },
+      "created": "Un nuevo Contract ha sido creado con el identificador {{ param }}",
+      "updated": "Un Contract ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Contract ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Contract {{ id }}?"
+      },
+      "detail": {
+        "title": "Contract"
+      },
+      "type": "Type",
+      "title": "Title",
+      "legalProse": "Legal Prose",
+      "signature": "Signature",
+      "contractFile": "Contract File",
+      "qrCode": "Qr Code",
+      "digitalFingerprint": "Digital Fingerprint",
+      "dateSigned": "Date Signed",
+      "expirationDate": "Expiration Date",
+      "status": "Status",
+      "serviceQuote": "Service Quote",
+      "companies": "Companies"
+    }
+  }
+}

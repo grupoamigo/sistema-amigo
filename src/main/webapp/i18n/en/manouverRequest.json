@@ -1,0 +1,30 @@
+{
+  "sistemaAmigoApp": {
+    "manouverRequest": {
+      "home": {
+        "title": "Manouver Requests",
+        "createLabel": "Create a new Manouver Request",
+        "createOrEditLabel": "Create or edit a Manouver Request",
+        "search": "Search for Manouver Request",
+        "notFound": "No Manouver Requests found"
+      },
+      "created": "A new Manouver Request is created with identifier {{ param }}",
+      "updated": "A Manouver Request is updated with identifier {{ param }}",
+      "deleted": "A Manouver Request is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Manouver Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Manouver Request"
+      },
+      "title": "Title",
+      "description": "Description",
+      "date": "Date",
+      "transportType": "Transport Type",
+      "qrCode": "Qr Code",
+      "origin": "Origin",
+      "destiny": "Destiny",
+      "manouver": "Manouver"
+    }
+  }
+}

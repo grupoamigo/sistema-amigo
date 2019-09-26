@@ -1,0 +1,25 @@
+{
+  "sistemaAmigoApp": {
+    "route": {
+      "home": {
+        "title": "Routes",
+        "createLabel": "Crear nuevo Route",
+        "createOrEditLabel": "Crear o editar Route",
+        "search": "Search for Route",
+        "notFound": "No Routes found"
+      },
+      "created": "Un nuevo Route ha sido creado con el identificador {{ param }}",
+      "updated": "Un Route ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Route ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Route {{ id }}?"
+      },
+      "detail": {
+        "title": "Route"
+      },
+      "price": "Price",
+      "name": "Name",
+      "currency": "Currency"
+    }
+  }
+}

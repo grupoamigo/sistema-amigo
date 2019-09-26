@@ -1,0 +1,30 @@
+{
+  "sistemaAmigoApp": {
+    "serviceRequest": {
+      "home": {
+        "title": "Service Requests",
+        "createLabel": "Crear nuevo Service Request",
+        "createOrEditLabel": "Crear o editar Service Request",
+        "search": "Search for Service Request",
+        "notFound": "No Service Requests found"
+      },
+      "created": "Un nuevo Service Request ha sido creado con el identificador {{ param }}",
+      "updated": "Un Service Request ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Service Request ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Service Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Service Request"
+      },
+      "title": "Title",
+      "description": "Description",
+      "dateRequested": "Date Requested",
+      "dateBegin": "Date Begin",
+      "dateEnd": "Date End",
+      "status": "Status",
+      "client": "Client",
+      "serviceQuote": "Service Quote"
+    }
+  }
+}

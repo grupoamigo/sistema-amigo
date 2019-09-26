@@ -1,0 +1,11 @@
+id;phone;role;profile_picture;profile_picture_content_type;created;expires;account_level;verified
+1;1-777-760-9361 x9886;ADMINISTRATIVO;../fake-data/blob/hipster.png;image/png;2019-09-26T11:36:39;2019-09-26;ENTERPRISE;false
+2;1-978-775-2724;VIGILANTE;../fake-data/blob/hipster.png;image/png;2019-09-26T09:09:16;2019-09-26;PRO;false
+3;864-355-6912;INSPECTOR;../fake-data/blob/hipster.png;image/png;2019-09-26T13:55:27;2019-09-25;ENTERPRISE;true
+4;896.826.1848;SUPERVISOR;../fake-data/blob/hipster.png;image/png;2019-09-25T21:59:39;2019-09-25;FREE;false
+5;1-912-264-0838;JEFE_DE_DIVISION;../fake-data/blob/hipster.png;image/png;2019-09-26T07:09:27;2019-09-26;ENTERPRISE;false
+6;1-291-325-5743;ADMINISTRATIVO;../fake-data/blob/hipster.png;image/png;2019-09-25T20:19:01;2019-09-26;ENTERPRISE;true
+7;1-129-026-9540;CHOFER;../fake-data/blob/hipster.png;image/png;2019-09-25T21:37:02;2019-09-26;ENTERPRISE;true
+8;(495) 256-0732 x278;CHOFER;../fake-data/blob/hipster.png;image/png;2019-09-26T09:50:37;2019-09-26;PRO;false
+9;(085) 362-0758 x2360;CEO;../fake-data/blob/hipster.png;image/png;2019-09-26T09:52:25;2019-09-26;PRO;false
+10;1-129-586-2261 x8955;INSPECTOR;../fake-data/blob/hipster.png;image/png;2019-09-25T20:14:44;2019-09-25;FREE;false

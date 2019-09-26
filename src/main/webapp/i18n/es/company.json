@@ -1,0 +1,33 @@
+{
+  "sistemaAmigoApp": {
+    "company": {
+      "home": {
+        "title": "Companies",
+        "createLabel": "Crear nuevo Company",
+        "createOrEditLabel": "Crear o editar Company",
+        "search": "Search for Company",
+        "notFound": "No Companies found"
+      },
+      "created": "Un nuevo Company ha sido creado con el identificador {{ param }}",
+      "updated": "Un Company ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Company ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Company {{ id }}?"
+      },
+      "detail": {
+        "title": "Company"
+      },
+      "legalName": "Legal Name",
+      "taxId": "Tax Id",
+      "type": "Type",
+      "logo": "Logo",
+      "profilePicture": "Profile Picture",
+      "membership": "Membership",
+      "contract": "Contract",
+      "service": "Service",
+      "warehouse": "Warehouse",
+      "manouver": "Manouver",
+      "transportOwner": "Transport Owner"
+    }
+  }
+}

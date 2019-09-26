@@ -1,0 +1,13 @@
+{
+  "sistemaAmigoApp": {
+    "ContractStatusType": {
+      "null": "",
+      "EMITIDO": "EMITIDO",
+      "FIRMADO": "FIRMADO",
+      "ACTIVO": "ACTIVO",
+      "CANCELADO": "CANCELADO",
+      "PAUSADO": "PAUSADO",
+      "TERMINADO": "TERMINADO"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "sistemaAmigoApp": {
+    "StatusType": {
+      "null": "",
+      "PROCESANDO": "PROCESANDO",
+      "CONFIRMADO": "CONFIRMADO",
+      "ACTIVO": "ACTIVO",
+      "EN_ESPERA": "EN_ESPERA",
+      "TERMINADO": "TERMINADO",
+      "CANCELADO": "CANCELADO"
+    }
+  }
+}

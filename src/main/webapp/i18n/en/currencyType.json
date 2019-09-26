@@ -1,0 +1,9 @@
+{
+  "sistemaAmigoApp": {
+    "CurrencyType": {
+      "null": "",
+      "MXN": "MXN",
+      "USD": "USD"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Transport",
+    "fields": [
+        {
+            "fieldName": "plateId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "TransportType",
+            "fieldValues": "CAMION,FFCC"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "company",
+            "otherEntityRelationshipName": "transportOwner",
+            "relationshipName": "owner",
+            "otherEntityField": "legalName"
+        }
+    ],
+    "changelogDate": "20190926192512",
+    "entityTableName": "transport",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Client",
+    "fields": [
+        {
+            "fieldName": "memberSince",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "ClientStatusType",
+            "fieldValues": "ACTIVO,SOLICITUD,APROBADO,VERIFICADO,DECLINADO,CANCELADO,PAUSADO"
+        },
+        {
+            "fieldName": "internalNotes",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "uniqueId",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "serviceRequest",
+            "otherEntityRelationshipName": "client",
+            "relationshipName": "serviceRequest",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "cargo",
+            "otherEntityRelationshipName": "client",
+            "relationshipName": "cargo"
+        }
+    ],
+    "changelogDate": "20190926192454",
+    "entityTableName": "client",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
