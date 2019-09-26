@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "SistemaAmigo",
+    "packageName": "com.sistema.amigo",
+    "packageFolder": "com/sistema/amigo",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.3.1",
+    "jwtSecretKey": "YjM5N2Y4NDY1ZGE5NDZmNjAyNzZhYWViNTJmZTAzY2Y5MDI4NjJlNjZjNzQwMjgxMjg3YjdjOWZjYmM3MjhkMWMzMGExMGExZWFmNDE1YjM2ZTM3NWM1ZDNlNzg3MWJhNTQxMmFkZjA4NDBhOTg3ZDFiMWUwZDE5NTZhYmQ1MWE=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "grupoamigo",
+  "repository-name": "sistema-amigo"
+}
